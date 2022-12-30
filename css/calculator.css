@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainBody{
+
+    border:2px solid red;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.screen{
+    height: 50px;
+    border: 2px solid black;
+}
+
+.clear{
+    text-align: center;
+    width: inherit;
+    margin-top: 2px;
+}
+
+.subBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digits{
+    border: 2px solid blue;
+    width: 140px;
+    height: 320px;
+
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+    padding: 5px;
+}
+
+.operators{
+    border: 2px solid yellow;
+    width: 80px;
+    height: 320px;
+
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+
+.dig{
+    padding: 2px;
+    margin: 6px;
+}
